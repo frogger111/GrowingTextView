@@ -42,7 +42,7 @@
     // Override point for customization after application launch.
 
 	viewController = [[GrowingTextViewExampleViewController alloc] init];
-	
+    [window setRootViewController:viewController];
     // Add the view controller's view to the window and display.
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
